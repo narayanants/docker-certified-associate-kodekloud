@@ -1,0 +1,34 @@
+Docker Introduction:
+-------------------
+
+    Docker CLI
+    REST API
+    Docker Daemon
+    containerd
+    containerd-shim
+    runC
+    libcontainer
+    namespaces and cGroups
+
+    Docker manages
+        - Images
+        - Volumes
+        - Networks
+        - Containers
+
+
+    Docker Registry stores docker Images (Dockerhub)
+    DTR - Docker Trusted Registry
+
+    /var/lib/docker
+
+
+    dockerd --debug
+    docker ls -q
+    docker run --rm 
+
+    docker run -it --name=webapp --hostname=webapp ubuntu
+    docker cp /tmp/web.conf webapp:/etc/web.conf
+    
+
+    
