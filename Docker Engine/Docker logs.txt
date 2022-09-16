@@ -1,0 +1,8 @@
+Docker Logging:
+--------------
+
+    - Docker system info
+    - docker logs ubuntu
+    - /etc/docker/daemon.json
+    - default logging driver is  json-file
+    
